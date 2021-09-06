@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #535353;
+}
+
+h1 {
+  margin-top: 25px;
+  font-family: "Permanent Marker", cursive;
+  color: #535353;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 25px !important;
+  font-family: "Permanent Marker", cursive;
+  color: #415a91;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 25px;
+  color: #415a91;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(to bottom right, rgba(253, 165, 2, 0.4), #fafafa), url(../images/fishing-boat-5541327_1920.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+header h1 {
+  margin-top: 250px;
+}
+header h1 span {
+  font-weight: bold;
+  color: #415a91;
+}
+header .btnContact {
+  background-color: #fda502;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+header .btnContact:hover {
+  transition: 1s;
+  background-color: #415a91;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+header .fisherNav {
+  color: #415a91 !important;
+  font-weight: bold;
+}
+header .navColor {
+  color: #415a91 !important;
+}
+header .navColor:hover {
+  color: #535353 !important;
+}
+header .navColor:active {
+  color: #fda502 !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.AboutUs {
+  padding: 30px;
+}
+.AboutUs .imgAboutUs {
+  margin-top: 25px;
+  width: 100%;
+}
+.AboutUs .btnContact {
+  margin: 20px 0px 20px;
+  background-color: #fda502;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+.AboutUs .btnContact:hover {
+  transition: 1s;
+  background-color: #415a91;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.service {
+  margin-top: 30px;
+}
+.service .center {
+  text-align: center;
+}
+.service i {
+  background: linear-gradient(150deg, rgba(253, 165, 2, 0.9) 0%, rgba(65, 90, 150, 0.7) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+}
+
+.marge {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.marge .imgportfolio {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.portr {
+  margin-left: 0px !important;
+  margin-right: 0 !important;
+}
+
+.port h2 {
+  text-align: left;
+}
+
+.btn {
+  text-align: center;
+}
+.btn .btnContact {
+  margin: 20px 0px 20px;
+  background-color: #fda502;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+.btn .btnContact:hover {
+  transition: 1s;
+  background-color: #415a91;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.fond {
+  background-image: linear-gradient(to bottom right, rgba(253, 165, 2, 0.6), rgba(65, 90, 145, 0.8));
+  margin-left: 0px !important;
+  margin-right: 0 !important;
+}
+.fond p {
+  color: white;
+  text-align: center;
+}
+.fond .light {
+  font-weight: lighter;
+}
+.fond img {
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.fond .hop {
+  height: 60px;
+  border-radius: 60px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #fda502;
+  padding: 8px;
+  margin-top: 25px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #fda502;
+  padding: 8px;
+  margin-top: 25px;
+}
+
+#ContactUs h4 {
+  text-align: left;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  background-image: linear-gradient(to bottom right, rgba(253, 165, 2, 0.2), rgba(253, 165, 2, 0.8)), url(../images/man-336482_1920.jpg);
+  min-height: 30vh;
+  background-position: top, left;
+  background-size: cover;
+}
+footer h4 {
+  text-align: left;
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+@media screen and (max-width: 330px) {
+  #slider {
+    display: none;
+  }
+
+  .fond img {
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .fond .hop {
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #slider {
+    display: none;
+  }
+
+  .port h2 {
+    text-align: center;
+  }
+
+  .AboutUs {
+    padding: 0px;
+  }
+  .AboutUs form {
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
